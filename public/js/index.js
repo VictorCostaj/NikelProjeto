@@ -37,7 +37,7 @@ document.getElementById("create-form").addEventListener("submit", function (e) {
     }
 
     if (password.length < 5) {
-        alert("Preencha a senha com no mínimo 4 dígitos.");
+        alert("Preencha a senha com no mínimo 5 dígitos.");
         return;
     }
 
